@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,EACG,qBAAsB,CACtB,QAAS,CACT,SAAU,CACV,8BACH","file":"main.722e6788.chunk.css","sourcesContent":["* {\n   box-sizing: border-box;\n   margin: 0;\n   padding: 0;\n   font-family: 'Exo 2', sans-serif;\n}\n"]}
