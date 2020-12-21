@@ -9,7 +9,7 @@ const TopNav = () => {
             <NavbarContainer>
                 <InfoDiv>
                     <IoLocationSharp />
-                    <TopDetail>Bonifacio Global City, Taguig, Kalakhang Maynila</TopDetail>
+                    <TopDetail>Bonifacio Global City, Taguig</TopDetail>
                 </InfoDiv>
                 <InfoDiv>
                     <IoMailSharp />
