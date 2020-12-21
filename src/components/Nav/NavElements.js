@@ -6,12 +6,14 @@ export const NavDiv = styled.nav`
     background: #060606;
     display: flex;
     height: 80px;
-    top: 1.6rem;
     font-size: 1rem;
     align-items: center;
     justify-content: center;
-    position: sticky;
-    z-index: 10;
+    top: 25px;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 150;
 
     @media screen and (max-width: 722px){
         top: 3rem;
@@ -28,6 +30,7 @@ export const NavContainer = styled.div`
     width: 100%;
     padding: 0 24px;
     max-width: 1200px;
+    top: 10px;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -88,6 +91,7 @@ export const NavLink = styled(LinkS)`
     &:hover {
         background: #ffc50d;
         color: #060606;
+        font-weight: bold;
     }
 
     &.active{

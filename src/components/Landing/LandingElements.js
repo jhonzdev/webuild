@@ -10,6 +10,7 @@ export const LandingContainer = styled.div`
     padding: 0 30px;
     height: 850px;
     position: relative;
+    bottom: -100px;
     z-index: 1;
 
     :before {

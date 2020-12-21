@@ -1,4 +1,6 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import bgvideo from '../../images/bgvideo.mp4';
 import { 
     LandingContainer, 
@@ -20,6 +22,10 @@ const Landing = () => {
         setHover(!hover);
     }
 
+    useEffect(() => {
+        Aos.init({ duration: 2000});
+    }, []);
+
     return (
         <LandingContainer id="landing">
             <LandingBg>
@@ -29,7 +35,7 @@ const Landing = () => {
                 <LandingH1>WeBuild is a Construction Company</LandingH1>
                 <LandingP>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </LandingP>
                 <LandingBTNWrapper>
-                    <LandingButton
+                    <LandingButton data-aos="fade-up"
                         to="about"
                         smooth={true}
                         duration={500}

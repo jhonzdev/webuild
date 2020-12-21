@@ -22,7 +22,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-80} 
+                            offset={0} 
                             onClick={toggle}>Who we are</SidebarLink>
                     <SidebarLink 
                             to="project" 

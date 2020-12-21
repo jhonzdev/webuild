@@ -9,7 +9,7 @@ export const AboutContainer = styled.div`
 `
 
 export const ContentWrapper = styled.div`
-    padding-top: 100px;
+    padding-top: 200px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -20,7 +20,7 @@ export const ContentWrapper = styled.div`
     position: relative;
     
     @media screen and (max-width: 1100px){
-        padding-top: 0px;
+        padding-top: 50px;
         text-align: center;
         justify-content: center;
         
@@ -49,11 +49,6 @@ export const SideA = styled.div`
         height: 100%;
         top: 100px
     };
-
-    &:hover{
-        transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
-    }
 `
 
 export const SideB = styled.div`
@@ -110,11 +105,6 @@ export const SideA2 = styled.div`
         height: 100%;
         top: 100px
     };
-
-    &:hover{
-        transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
-    }
 `
 
 export const SideB2 = styled.div`
