@@ -11,6 +11,10 @@ export const Nav = styled.nav`
     top: 0;
     position: fixed;
 
+    @media screen and (max-width: 722px) {
+        padding-bottom: 50px;
+    }
+
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
     }

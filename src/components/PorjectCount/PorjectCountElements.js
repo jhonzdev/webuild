@@ -25,10 +25,26 @@ export const CountWrapper = styled.div`
 
 export const CountH2 = styled.div`
     font-size: 24px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 16px;
+    }
 `
 
 export const CountP = styled.div`
     font-size: 48px;
     font-weight: bold;
     color: #fff;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
 `

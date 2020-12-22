@@ -31,6 +31,13 @@ export const OfferTitle = styled.div`
 export const OfferTitleH1 = styled.h1`
     font-size: 48px;
 
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
 `
 
 export const OfferTitleP = styled.p`

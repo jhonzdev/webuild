@@ -42,6 +42,10 @@ export const ContactEmail = styled.div`
         margin-top: 30px;
         text-align: center;
     }
+
+    @media screen and (max-width: 340px){
+        padding-right: 10px;
+    }
 `
 
 export const ContactEmailH1 = styled.h1`
@@ -50,6 +54,14 @@ export const ContactEmailH1 = styled.h1`
 
     @media screen and (max-width: 790px){
         padding-top: 500px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
     }
 `
 
@@ -83,6 +95,10 @@ export const InputName = styled.input`
     ::placeholder{
         color: #fff;
     }
+
+    @media screen and (max-width: 340px){
+        width: 100%;
+    }
 `
 
 export const InputEmail = styled.input`
@@ -98,6 +114,10 @@ export const InputEmail = styled.input`
 
     ::placeholder{
         color: #fff;
+    }
+
+    @media screen and (max-width: 340px){
+        width: 100%;
     }
 `
 
@@ -115,6 +135,10 @@ export const InputArea = styled.textarea`
 
     ::placeholder{
         color: #fff;
+    }
+
+    @media screen and (max-width: 340px){
+        width: 100%;
     }
 `
 
@@ -134,6 +158,9 @@ export const InputButton = styled.button`
         color: white;
     }
 
+    @media screen and (max-width: 340px){
+        width: 100%;
+    }
 `
 
 
@@ -168,6 +195,14 @@ export const ContactH1 = styled.h1`
 
     @media screen and (max-width: 790px){
         text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
     }
 `
 
