@@ -24,7 +24,7 @@ const Nav = ({ toggle }) => {
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={0}>Who we are</NavLink>
+                            offset={-80}>Who we are</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink 
